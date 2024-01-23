@@ -21,12 +21,14 @@ app.get("/", (req, res) => {
 
 app.get("/generic", (req, res) => {
  res.render("generic",{
-
+  title: "Webserver Node",
+  nombre:"Arnold"
  });
 });
 app.get("/elements", (req, res) => {
   res.render("elements",{
-   
+    title: "Webserver Node",
+    nombre:"Arnold"
   });
  });
  
